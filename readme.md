@@ -11,6 +11,6 @@
 
 
 
-##php与mysql##
+##PHP与mysql##
 1. 数据库连接
 
