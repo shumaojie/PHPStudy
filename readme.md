@@ -20,5 +20,8 @@
 4. 值需要加''
 5. 查询语句：$query = "Select * FROM marketmsg WHERE market='" . $market . "' order by time desc ";
 6. desc 降序，比如时间最前的排在前面。 asc升序，时间最早的排在前面
-
+7. 对于子分类查询
+8. sql表格的建立需要冗余机制
+9. php链接远程数据库。 Warning: mysql_connect(): An established connection was aborted by the software in your host machine. 原因是防火墙
+10.socket client不能主动来链接电脑是在哪里进行设置？
 
