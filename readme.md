@@ -8,9 +8,13 @@
 6. 在windows中安装xmapp,在ubuntu里面添加lamp来安装php集成环境
 7. 语句需要用;(分号)作为结尾
 8. 前后端交互，前端使用$.post()  那么后端使用 $para1= empty($_POST['para1']) ? die("请输入参数名称") : mysql_escape_string($_POST['para1']);
+9. 对数组进行操作，$selectitems = array(); array_push($array,$item);
+10.
 
 
 
 ##PHP与mysql##
 1. 数据库连接
+2. 判断时间相等
+
 
