@@ -16,5 +16,9 @@
 ##PHP与mysql##
 1. 数据库连接
 2. 判断时间相等
+3. 数据库进行更新update:$query = "update marketmsg set context='" . $Msg . "' where market='" . $market . "' and time='" . $time1 . "'";
+4. 值需要加''
+5. 查询语句：$query = "Select * FROM marketmsg WHERE market='" . $market . "' order by time desc ";
+6. desc 降序，比如时间最前的排在前面。 asc升序，时间最早的排在前面
 
 
