@@ -27,3 +27,14 @@
 9. php链接远程数据库。 Warning: mysql_connect(): An established connection was aborted by the software in your host machine. 原因是防火墙
 10.socket client不能主动来链接电脑是在哪里进行设置？
 
+
+
+
+##高级PHP##
+1. 类的概念
+2. 框架的使用
+
+
+
+
+##PHP作为后台语言写App##
