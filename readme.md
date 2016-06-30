@@ -1,7 +1,7 @@
 #PHP 学习笔记#
 ##注意点##
-1. 字符串相加是.(点号)而不是+（加号）。所学语言中php是这样
-2. 判断字符串中含有字符串使用count(explode(nodele,source))>1
+1. 字符串相加是.(点号)而不是+（加号）。所学语言中只有php是这样
+2. 判断字符串中含有子字符串使用count(explode(nodele,source))>1
 3. 变量命名是$,弱类型语言
 4. 在查询数据库之前最好添加mysql_query("SET NAMES utf8");
 5. <?php  里面填充内容 ?>
@@ -12,6 +12,7 @@
 10. PHP对文中只替换一次的方法  $str=preg_replace('/abc/','abc',$str,1);
 11. PHP中对文中含有/或者替换中含有/进行替换的需要书写额外的函数。例如str_replace_limit
 12. PHP中字符串数组中删除里面的一个字字符串items.splice(index,1)
+13. PHP运行环境和开发环境
 
 
 
@@ -36,11 +37,11 @@
 
 
 
+##PHP架构师##
+
+
+
 
 ##PHP作为后台语言写App##
 
 
-
-
-
-##PHP架构师##
