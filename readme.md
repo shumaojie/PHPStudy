@@ -10,6 +10,8 @@
 8. 前后端交互，前端使用$.post()  那么后端使用 $para1= empty($_POST['para1']) ? die("请输入参数名称") : mysql_escape_string($_POST['para1']);
 9. 对数组进行操作，$selectitems = array(); array_push($array,$item);
 10. PHP对文中只替换一次的方法  $str=preg_replace('/abc/','abc',$str,1);
+11. PHP中对文中含有/或者替换中含有/进行替换的需要书写额外的函数。例如str_replace_limit
+12. PHP中字符串数组中删除里面的一个字字符串items.splice(index,1)
 
 
 
