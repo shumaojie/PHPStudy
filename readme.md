@@ -13,6 +13,14 @@
 11. PHP中对文中含有/或者替换中含有/进行替换的需要书写额外的函数。例如str_replace_limit
 12. PHP中字符串数组中删除里面的一个字字符串items.splice(index,1)
 13. PHP运行环境和开发环境
+14. 把字符串转换为数字 (int)$var
+15. 异常捕获
+try 
+{ //...} 
+catch(Exception $e) 
+{ //...}
+16. 获取文件大小 $filesize=abs(filesize($filename)) 返回值是字节
+
 
 
 
@@ -26,8 +34,9 @@
 7. 对于子分类查询
 8. sql表格的建立需要冗余机制
 9. php链接远程数据库。 Warning: mysql_connect(): An established connection was aborted by the software in your host machine. 原因是防火墙
-10.socket client不能主动来链接电脑是在哪里进行设置？
-
+10.socket client不能主动来链接电脑是在哪里进行设置？ 没有设置代理
+11. 数据库更新. "update control set respose=True where id=" . $row["id"]; 其中True不能错
+12. 
 
 
 
